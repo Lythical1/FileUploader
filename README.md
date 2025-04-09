@@ -131,7 +131,7 @@ $conn = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');
 
 $fileUploader = new FileUploader(
   $conn,
-  'uploads',
+  'profile_uploads',
   ['jpg', 'png', 'pdf'],
   'users',
   'profile_picture',

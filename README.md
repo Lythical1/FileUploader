@@ -1,5 +1,7 @@
 # 📁📤 FileUploader 📤📁
 
+
+
 The `FileUploader` class is a PHP utility that helps manage file uploads and update your database with less hassle. It's reusable, consistent, and reduces the need to write the same file upload logic repeatedly. ✨🛠️🧩
 
 ## 🎯 Motivation 🎯
@@ -173,3 +175,5 @@ If something goes wrong, please share detailed steps to reproduce the issue and 
 ## 📄 License 📄
 
 This project uses the MIT License. See the [LICENSE](./LICENSE) file for full details. 📜
+
+![View Count](https://visitor-badge.laobi.icu/badge?page_id=PHP-FileUploader)

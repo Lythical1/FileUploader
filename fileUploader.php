@@ -261,7 +261,7 @@ class FileUploader
         $extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
             
         // Validate image metadata
-        $imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'svg', 'ico', 'jfif'];
+        $imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'ico', 'jfif'];
         if (in_array($extension, $imageExtensions)) {
             $imageInfo = @getimagesize($file['tmp_name']);
             if ($imageInfo === false) {
